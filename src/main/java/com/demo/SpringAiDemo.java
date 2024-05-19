@@ -9,6 +9,7 @@ import org.springframework.ai.chat.chatbot.DefaultChatBot;
 import org.springframework.ai.chat.chatbot.DefaultStreamingChatBot;
 import org.springframework.ai.chat.chatbot.StreamingChatBot;
 import org.springframework.ai.chat.history.*;
+import org.springframework.ai.chat.memory.LastMaxTokenSizeContentTransformer;
 import org.springframework.ai.chat.prompt.transformer.QuestionContextAugmentor;
 import org.springframework.ai.chat.prompt.transformer.VectorStoreRetriever;
 import org.springframework.ai.evaluation.RelevancyEvaluator;
